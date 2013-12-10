@@ -32,8 +32,8 @@ Como se Candidatar
 Se você se convenceu que quer trabalhar na ClickBus:
 
 * Realize um fork desse projeto;
-* Escolha dois dos três testes disponíveis no diretório **testes**
-* Faça um pull request ou caso você tenha alguma restrição em relação a enviar o pull-request publicamente, encaminhe o seu CV para [vagas@clickbus.com.br](vagas@clickbus.com.br), com os testes em anexo, a versão do PHP utilizada e as suas dependências.
+* Escolha um dos dois testes disponíveis no diretório **testes**
+* Faça um pull request ou caso você tenha alguma restrição em relação a enviar o pull-request publicamente, encaminhe o seu CV para [vagas_dev@clickbus.com.br](vagas_dev@clickbus.com.br), com os testes em anexo, a versão do PHP utilizada e as suas dependências.
 
 Sinta-se a vontade para incluir QUALQUER coisa que você acredite que
 vá ser bom pra sua imagem perante quem estará recebendo esses dados (twitter,
