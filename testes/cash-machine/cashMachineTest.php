@@ -54,6 +54,16 @@ class cashMachineTest extends PHPUnit_Framework_TestCase
         $return = $cashMachine->withdrawal($value['valor']);
     }
 
+    public function testWithdrawalShouldReturnEmptySet()
+    {
+        $cashMachine = new cashMachine();
+        $return = $cashMachine->withdrawal(array());
+
+        $expectedReturn = array('Empty Set');
+
+        $this->assertEquals($expectedReturn, $return);
+    }
+
     public function correctValues()
     {
         return array(

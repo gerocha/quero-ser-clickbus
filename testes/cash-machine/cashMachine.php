@@ -11,10 +11,15 @@ class cashMachine
             $avaibleNote = $this->getAvaibleNotesForWithdrawal($amount);
             return $this->calculateNote($amount, $avaibleNote);
         }
+        return array('Empty Set');
     }
 
     public function validateWithdrawal ($value)
     {
+        if(empty($value)) {
+            return false;
+        }
+
         if ($value%2 != 0) {
             throw new NoteUnavailableException("Valor impossível de ser sacado");
         }
@@ -27,6 +32,7 @@ class cashMachine
         if ($lastUnitValue > 0){
             throw new NoteUnavailableException("Valor impossível de ser sacado");
         }
+
 
         return true;
     }
